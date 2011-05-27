@@ -21,8 +21,7 @@ When /^I guess "([^"]*)"$/ do |guess|
 end
 
 Then /^the mark should be "([^"]*)"$/ do |mark|
-  #output.messages.should include(mark)
-  pending
+  output.messages.should include(mark)
 end
 
 class Output
