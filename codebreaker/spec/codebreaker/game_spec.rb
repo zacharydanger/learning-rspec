@@ -26,7 +26,7 @@ module Codebreaker
         end
       end
 
-      context "with 1 match" do
+      context "with 1 number match" do
         it "sends a mark with '-'" do
           game.start('1234')
           output.should_receive(:puts).with('-')
