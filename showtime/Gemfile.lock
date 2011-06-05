@@ -50,6 +50,7 @@ GEM
       cucumber (>= 0.10.3)
       nokogiri (>= 1.4.4)
       rack-test (>= 0.5.7)
+    database_cleaner (0.6.7)
     diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
@@ -85,7 +86,7 @@ GEM
       activesupport (= 3.0.5)
       rake (>= 0.8.7)
       thor (~> 0.14.4)
-    rake (0.9.1)
+    rake (0.8.7)
     rspec (2.6.0)
       rspec-core (~> 2.6.0)
       rspec-expectations (~> 2.6.0)
@@ -123,7 +124,9 @@ PLATFORMS
 
 DEPENDENCIES
   cucumber-rails (>= 0.3.2)
+  database_cleaner
   rails (= 3.0.5)
+  rake (= 0.8.7)
   rspec-rails (>= 2.0.0)
   sqlite3
   webrat (>= 0.7.2)
